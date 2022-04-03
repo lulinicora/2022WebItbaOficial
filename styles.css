@@ -1,16 +1,10 @@
-body{background-color: snow;}
+body{background-color: white;}
 h1{font-size: 30px; color:lightblue;}
 #foto-body{width: 40%; height: 40%;}
 #icono-contacto{
     position: fixed;
     bottom: 30px;
     right: 20px;
-}
-header{
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0px;
-    background-color: #24425B;
 }
 menu{
     list-style-type: none;
@@ -26,4 +20,9 @@ footer{
     position: fixed;
     bottom: 0px;
     background-color: snow;
+}
+@media screen and (min-width: 480px) {
+    body{
+        background-color: snow;
+    }
 }
