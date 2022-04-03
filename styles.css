@@ -1,0 +1,29 @@
+body{background-color: snow;}
+h1{font-size: 30px; color:lightblue;}
+#foto-body{width: 40%; height: 40%;}
+#icono-contacto{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: #24425B;
+}
+menu{
+    list-style-type: none;
+}
+menu > a > li{
+    display: inline;
+    color: snow
+}
+#logo-header{
+    width: 5%;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: snow;
+}
