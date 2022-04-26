@@ -84,8 +84,39 @@ if (decision === "si"){
     document.write("Ingrese si o no");
 }
 */
+/*
+let peso = prompt("Ingrese su peso en kg")
+let altura = prompt("Ingrese su altura en mts con .")
+imc = peso/(altura*altura)
 
+if(imc < 18){
+    document.write("Usted esta delgado")
+}else if(imc < 25){
+    document.write("Optimal")
+}else if(imc < 30){
+    document.write("Sobrepeso")
+}else if (imc < 40){
+    document.write("Obesidad")
+}else{
+    document.write("Esto es severo")
+}
+*/
 
+let valor1 = prompt("Ingresar un valor")
+let valor2 = prompt("Ingresar otro valor")
+let operacion = prompt("Inserte operacion")
+
+if (operacion == "suma"){
+    document.write(Number(valor1) + Number(valor2))
+}else if(operacion == "resta"){
+    document.write(Number(valor1) - Number(valor2))
+}else if(operacion == "multiplicación"){
+    document.write(Number(valor1) * Number(valor2))
+}else if(operacion == "división" && valor2 != 0){
+    document.write(Number(valor1) / Number(valor2))
+}else if(operacion == "división" && valor2 == 0){
+    document.write("No se puede dividir por 0")
+}
 
 </script>
 
